@@ -1,0 +1,96 @@
+body {
+  display: flex;
+}
+
+P {
+  font-size: larger;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#calculator {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(15, 13, 13, 0.704);
+  text-align: center;
+  background-color: rgb(170, 201, 237);
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 3px 5px black;
+}
+
+input {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(78, 93, 107);
+  color: rgb(255, 255, 255);
+  text-align: right;
+  height: 40px;
+}
+.gray-color {
+  background-color: rgb(6, 6, 6);
+}
+
+.light-gray {
+  background-color: lightgray;
+  color: black;
+}
+
+.orange-color {
+  background-color: gray;
+}
+
+button {
+  border-radius: 25px;
+  border: none;
+  width: 48px;
+  height: 48px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  /* text-shadow: 0px 0px 5px white; */
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 4px 5px black;
+}
+button:hover {
+  background-color: rgb(222, 228, 228);
+  color: rgb(0, 0, 0);
+}
+
+.result {
+  width: 20%;
+  font-size: 20px;
+  text-shadow: 0px 0px 5px white;
+  font-weight: bolder;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.heading {
+  font-weight: bold;
+  color: rgb(13, 54, 102);
+}
