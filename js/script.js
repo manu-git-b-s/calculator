@@ -20,6 +20,10 @@ const h1 = createElement("h1", "heading", "title");
 div.append(h1);
 h1.innerText = "CALCULATOR TASK";
 
+const p = createElement("p", "", "description");
+div.append(p);
+p.innerText = "Simple Calculator";
+
 const div1 = createElement("div", "", "calculator");
 div.append(div1);
 div1.append(
